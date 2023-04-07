@@ -1,9 +1,12 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { Header } from '../components/Header';
 import './../styles/global.css'
 
 export function App() {
   return (
-    <h1 className="text-cyan-900">Hello</h1>
+    <main className="h-screen bg-gray-100">
+      <Header/>
+    </main>
   );
 }
 
